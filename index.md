@@ -11,7 +11,7 @@ This is my personal repository for Maven POM packages.
 [Kodumaro Effects][effects] is a dependency-free side-effect lazy dealer for
 Scala 2.12. Basically it’s an I/O monad.
 
-Instalation:
+Installation:
 
 ```sbt
 resolvers += "Kodumaro Maven Repository" at "https://cacilhas.info/maven"
