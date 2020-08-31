@@ -4,7 +4,7 @@ Put the jar file in this repository’s root and run:
 
 ```
 mvn install:install-file \
-    -DgroupId=info.cacilhas.kodumaro \
+    -DgroupId=$ORGANIZATION_PACKAGE \
     -DartifactId=$ARTIFACT_ID \
     -Dversion=$VERSION \
     -Dfile=$JAR_FILE \
@@ -15,3 +15,6 @@ mvn install:install-file \
 ```
 
 After that, remove the jar file from the root and commit.
+
+Mind that for Scala packages, the artifact ID must be suffixed with the Scala
+version used during the compilation – for example `_2.12`.
